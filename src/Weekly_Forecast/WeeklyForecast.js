@@ -4,7 +4,7 @@ import './WeeklyForecast.css';
 function WeeklyForecast(props) {
 	return (
 		<div className='weekly-forecast'>
-			<h2>Weekly Forecast</h2>
+			<h2 className='weekly-forecast-header'>Weekly Forecast</h2>
 		</div>
 	);
 }

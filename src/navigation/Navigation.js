@@ -9,7 +9,7 @@ function Navigation(props) {
 					type='text'
 					name='location'
 					className='search-location'
-					placeholder='Search by city/zipcode'
+					placeholder='Search by location'
 				/>
 				<button className='search-button'>Search</button>
 			</form>
