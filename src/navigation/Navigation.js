@@ -13,7 +13,6 @@ function Navigation(props) {
 				/>
 				<button className='search-button'>Search</button>
 			</form>
-			{/* <button className='search-button'>Search</button> */}
 		</div>
 	);
 }

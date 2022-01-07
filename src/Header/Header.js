@@ -4,7 +4,7 @@ import './Header.css';
 function Header(props) {
 	return (
 		<div className='title'>
-			<h1>Today's Weather</h1>
+			<h1>Weather</h1>
 		</div>
 	);
 }

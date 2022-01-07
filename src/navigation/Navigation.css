@@ -5,12 +5,32 @@
 }
 
 .search-location {
+	margin-top: 75px;
 	width: 700px;
 	height: 30px;
+	border-radius: 10px;
+	appearance: none;
+	background: none;
+	border: none;
+	outline: none;
+	background-color: rgb(228, 227, 240);
 }
 
 .search-button {
 	height: 36px;
+	width: 70px;
 	margin-left: 10px;
 	border-radius: 10px;
+	margin-top: 75px;
+	appearance: none;
+	background: none;
+	border: none;
+	outline: none;
+	background-color: rgb(228, 227, 240);
+}
+
+.search-button:hover {
+	cursor: pointer;
+	background-color: aqua;
+	transform: scale(1.1);
 }
