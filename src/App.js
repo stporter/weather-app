@@ -6,9 +6,10 @@ import WeeklyForecast from './Weekly_Forecast/WeeklyForecast';
 import './App.css';
 
 function App() {
+	const searchOptions = {};
+
 	return (
-		<div>
-			<h1>Weather App</h1>
+		<div className='body'>
 			<Header />
 			<Navigation />
 			<CurrentWeather />

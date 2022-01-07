@@ -1,0 +1,16 @@
+.search-weather {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search-location {
+	width: 700px;
+	height: 30px;
+}
+
+.search-button {
+	height: 36px;
+	margin-left: 10px;
+	border-radius: 10px;
+}
