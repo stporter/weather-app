@@ -22,6 +22,6 @@
 }
 
 .wind-mph {
-	position: relative;
+	position: absolute;
 	top: 100px;
 }

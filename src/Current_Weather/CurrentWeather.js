@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import MoreDetails from '../More_Details/MoreDetails';
 import './CurrentWeather.css';
 
 function Currentweather(props) {
@@ -23,7 +24,7 @@ function Currentweather(props) {
 	}
 
 	function showCurrentWeather() {
-		const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${searchCurrentWeather}`;
+		const apiUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${searchCurrentWeather}`;
 		fetch(apiUrl)
 			.then((response) => response.json())
 			.then((response) => {
