@@ -32,10 +32,14 @@ h2 {
 }
 
 .more-details-button {
+	height: 36px;
+	width: 70px;
+	border-radius: 10px;
+	/* appearance: none; */
+	/* background: none; */
+	/* border: none;
+	outline: none; */
+	background-color: rgb(228, 227, 240);
 	position: relative;
 	top: 220px;
-	appearance: none;
-	border-radius: 8px;
-	outline: none;
-	border: none;
 }

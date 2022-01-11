@@ -1,7 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './CurrentWeather.css';
+import Navigation from '../Navigation/Navigation';
 
 function Currentweather(props) {
+	const [searchCurrentWeather, setCurrentWeatherSearch] = useState('');
+	const [currentWeather, setCurrentWeather] = useState(null);
+	const apiKey = process.env.REACT_APP_WEATHER_KEY;
+
+	const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${searchCurrentWeather}`;
+
+	// const [searchCurrentWeather, setCurrentWeatherSearch] = useState('');
+	// const [currentWeather, setCurrentWeather] = useState(null);
+
+	function handleSubmit(event) {
+		showCurrentWeather();
+		event.preventDefault();
+	}
+
+	function showCurrentWeather() {
+		fetch(apiUrl)
+			.then((response) => response.json())
+			.then((response) => {
+				setCurrentWeather(response);
+			})
+			.catch(console.error);
+		console.log('Loading Info');
+	}
+
 	return (
 		<div className='current-weather'>
 			{' '}
@@ -13,8 +38,11 @@ function Currentweather(props) {
 				<div className='current-temperature'>Temperature</div>
 			</div>
 			<div className='date-time-box'>
-				<div className='date-and-time'>Date/Time</div>
+				<div className='date-and-time'>Date:</div>
 			</div>
+			{/* <div className='more-details'>
+				<button className='more-details-button'>More Details</button>
+			</div> */}
 		</div>
 	);
 }
