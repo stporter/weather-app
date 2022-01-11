@@ -7,6 +7,7 @@ function MoreDetails(props) {
 			<div className='more-weather-details'>
 				<h2 className='more-details-header'>More Details</h2>
 			</div>
+			<div className='wind-mph'></div>
 		</div>
 	);
 }

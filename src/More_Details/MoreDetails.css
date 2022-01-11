@@ -20,3 +20,8 @@
 	position: relative;
 	top: -15px;
 }
+
+.wind-mph {
+	position: relative;
+	top: 100px;
+}

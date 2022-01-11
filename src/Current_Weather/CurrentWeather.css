@@ -31,6 +31,11 @@ h2 {
 	top: 170px;
 }
 
+.weather-conditions {
+	position: relative;
+	top: 240px;
+}
+
 .more-details-button {
 	height: 36px;
 	width: 70px;
