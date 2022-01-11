@@ -1,26 +1,27 @@
-import React, { useState } from 'react';
-import './Navigation.css';
+// import React, { useState } from 'react';
+// import './Navigation.css';
 
-function Navigation(props) {
-	return (
-		<div>
-			<form className='search-weather'>
-				<input
-					placeholder='Search by city'
-					type='text'
-					name='searchString'
-					className='search-location'
-					required
-				/>
-				<button type='submit' className='search-button'>
-					Search
-				</button>
-			</form>
-		</div>
-	);
-}
+// function Navigation(props) {
+// 	return (
+// <div>
+// 	<form className='search-weather' onSubmit={handleSubmit}>
+// 		<input
+// 			placeholder='Search by city'
+// 			type='text'
+// 			name='searchString'
+// 			className='search-location'
+// 			required
+// 			onChange={handleChange}
+// 		/>
+// 		<button type='submit' className='search-button'>
+// 			Search
+// 		</button>
+// 	</form>
+// </div>
+// 	);
+// }
 
-export default Navigation;
+// export default Navigation;
 
 // 	// const [locationSearch, setLocationSearch] = useState('');
 // 	// const onSubmit = (event) => {

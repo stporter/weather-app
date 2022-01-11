@@ -29,7 +29,7 @@ function App() {
 	return (
 		<div className='body'>
 			<Header />
-			<Navigation />
+			{/* <Navigation /> */}
 			<CurrentWeather />
 			<MoreDetails />
 			<WeeklyForecast />
