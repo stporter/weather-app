@@ -1,7 +1,7 @@
 import React from 'react';
 import './Modal.css';
 
-const Modal = (props) => {
+function Modal(props) {
 	if (!props.show) {
 		return null;
 	}
@@ -26,6 +26,6 @@ const Modal = (props) => {
 			</div>
 		</div>
 	);
-};
+}
 
 export default Modal;
