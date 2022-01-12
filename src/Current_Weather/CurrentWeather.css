@@ -20,6 +20,12 @@
 	padding-left: 10px;
 }
 
+.current-weather-header,
+.weekly-forecast-header,
+.more-weather-details-header {
+	text-decoration: underline;
+}
+
 .current-location {
 	position: relative;
 	top: 40px;
