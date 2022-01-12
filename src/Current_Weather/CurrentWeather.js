@@ -7,11 +7,6 @@ function Currentweather(props) {
 	const [currentWeather, setCurrentWeather] = useState(null);
 	const apiKey = process.env.REACT_APP_WEATHER_KEY;
 
-	// const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${searchCurrentWeather}`;
-
-	// const [searchCurrentWeather, setCurrentWeatherSearch] = useState('');
-	// const [currentWeather, setCurrentWeather] = useState(null);
-
 	function handleSubmit(event) {
 		showCurrentWeather();
 		event.preventDefault();
@@ -87,7 +82,7 @@ function Currentweather(props) {
 						<h2 className='weekly-forecast-header'> Three day forecast</h2>
 						<div className='each-day-forecast'>
 							<div className='day-one-forecast'>
-								<p className='day-one-p'> Day 1:</p>
+								<p className='day-one-p'> Next Day: </p>
 								<p>
 									Avg Temp:{' '}
 									{currentWeather?.forecast.forecastday[0].day.avgtemp_f}{' '}
@@ -101,7 +96,7 @@ function Currentweather(props) {
 								</p>
 							</div>
 							<div className='day-two-forecast'>
-								<p className='day-two-p'> Day 2:</p>
+								<p className='day-two-p'> Two days ahead: </p>
 								<p>
 									{' '}
 									Avg Temp:{' '}
@@ -116,7 +111,7 @@ function Currentweather(props) {
 								</p>
 							</div>
 							<div className='day-three-forecast'>
-								<p className='day-three-p'> Day 3: </p>
+								<p className='day-three-p'> Three Days Ahead: </p>
 								<p>
 									{' '}
 									Avg Temp:{' '}

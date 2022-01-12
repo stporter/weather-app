@@ -1,6 +1,6 @@
 ## Project Description
 
-My project will be a weather app for the United States using React. You will be able to search any city in the US and generate a 5 day weather forecast.
+My project will be a basic weather app using React. The app will show current weather data, a three day forecast, as well as additional current day weather details for any location you desire.
 
 ## Link to the API used
 
@@ -62,8 +62,8 @@ https://www.weatherapi.com/
 
 ### MVP Goals
 
-- As a user, I would like there to be a search bar so that I can generate the 5 day forecast of the location I am searching for
-- As a user, I would like there to be an hourly forecast for the current day so that I know how the temperature is going to change throughout the day
+- As a user, I would like there to be a search bar so that I can generate the three day forecast of the location I am searching for
+
 - As a user I would like there to be further specific weather details for every search, so that I know all of the information about the weather for that specific location and day (wind, humidity, pressure, degrees in C)
 
 ### Stretch Goals

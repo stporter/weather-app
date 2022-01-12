@@ -1,0 +1,8 @@
+.footer {
+	text-align: right;
+	padding-right: 10px;
+	color: gray;
+	position: relative;
+	bottom: -60px;
+	font-size: 12px;
+}
