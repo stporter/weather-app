@@ -7,6 +7,7 @@ function Modal(props) {
 	}
 
 	return (
+		// Hello from modal
 		<div className='modal'>
 			<div className='modal-box'>
 				<div className='modal-header'>

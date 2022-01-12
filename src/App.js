@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Header from './Header/Header';
 
 import CurrentWeather from './Current_Weather/CurrentWeather';
-import Modal from './Modal/Modal';
+import Modal from './Modal/modal';
 import Footer from './Footer/Footer';
 
 import './App.css';
