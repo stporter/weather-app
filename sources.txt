@@ -1,3 +1,5 @@
 basic guide - https://git.generalassemb.ly/SEIR-1115/react-giphy-searcher#create-files-for-components-and-empty-app
 
 how to get a degrees symbol in react - https://stackoverflow.com/questions/51135958/using-degrees-symbols-in-react-and-jsx
+
+Modal = https://git.generalassemb.ly/SEIR-1115/modals-intro
