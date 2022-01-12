@@ -91,7 +91,10 @@ https://www.weatherapi.com/
   - All of the info fields stay on the page even when there is no location generated
   - I tried to make the modal bigger and cover the page but, the info on the main page still showed through the background of the modal
   - The whole page shifts down when opening the modal
+  
 
 - I originally wanted to have a five day forecast but, the api used did not have the option for it
+
+- The search bar does not clear after entering in and searching a location
 
 - I had divided the whole page up into seperate components in the beginning (current data, weekly forecast, additional data) but, had a difficult time with getting the api information to pull on each of the components. When I attempted this the styling was off and the info would not update for anything but the current weather data.
