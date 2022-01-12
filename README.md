@@ -1,6 +1,17 @@
+## Final Product
+
+![Weather App!](/assets/weatherapp.png)
+
 ## Project Description
 
 My project will be a basic weather app using React. The app will show current weather data, a three day forecast, as well as additional current day weather details for any location you desire.
+
+## Technologies Used
+
+- React
+- JavaScript
+- CSS
+- HTML
 
 ## Link to the API used
 
@@ -71,3 +82,16 @@ https://www.weatherapi.com/
 - As a user, I would like to be able to click on a certain day of the 5 day forecast to access the hourly forecast for that particular day
 - As a user, I would like there to be weather animations on the page
 - As a user I would like there to be sound queues depending on the weather for the day (rain, snow, windy, storm, etc)
+
+### Major Hurdles/Unsolved Problems
+
+- There are currently many unsolved CSS styling errors.
+
+  - You can scroll to the right and there is a lot of blank unused space
+  - All of the info fields stay on the page even when there is no location generated
+  - I tried to make the modal bigger and cover the page but, the info on the main page still showed through the background of the modal
+  - The whole page shifts down when opening the modal
+
+- I originally wanted to have a five day forecast but, the api used did not have the option for it
+
+- I had divided the whole page up into seperate components in the beginning (current data, weekly forecast, additional data) but, had a difficult time with getting the api information to pull on each of the components. When I attempted this the styling was off and the info would not update for anything but the current weather data.
