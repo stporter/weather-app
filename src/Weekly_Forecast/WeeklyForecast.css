@@ -1,7 +1,7 @@
-.weekly-forecast {
+.weekly-forecast-box {
 	position: relative;
 	left: 1px;
-	bottom: 10px;
+	bottom: -5px;
 	width: 1820px;
 	height: 200px;
 	border-radius: 10px;
@@ -17,4 +17,10 @@
 .weekly-forecast-header {
 	position: relative;
 	top: 5px;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
 }

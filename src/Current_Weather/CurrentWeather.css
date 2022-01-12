@@ -1,19 +1,23 @@
 .current-weather {
 	margin-top: 75px;
-	width: 500px;
-	height: 400px;
+	width: 1860px;
+	height: 550px;
 	border-radius: 10px;
 	appearance: none;
 	background: none;
 	border: none;
 	outline: none;
 	background-color: rgb(228, 227, 240, 0.5);
-	margin-left: 50px;
-	text-align: center;
+	margin-left: 25px;
 }
 
-h2 {
+.current-weather-header,
+.current-location,
+.current-temperature,
+.date-and-time,
+.weather-conditions {
 	padding-top: 10px;
+	padding-left: 10px;
 }
 
 .current-location {
@@ -34,19 +38,6 @@ h2 {
 .weather-conditions {
 	position: relative;
 	top: 240px;
-}
-
-.more-details-button {
-	height: 36px;
-	width: 70px;
-	border-radius: 10px;
-	/* appearance: none; */
-	/* background: none; */
-	/* border: none;
-	outline: none; */
-	background-color: rgb(228, 227, 240);
-	position: relative;
-	top: 220px;
 }
 
 .search-weather {
@@ -84,4 +75,27 @@ h2 {
 	cursor: pointer;
 	background-color: aqua;
 	transform: scale(1.1);
+}
+
+.weekly-forecast-box {
+	text-align: center;
+	margin-top: 10px;
+	position: relative;
+	top: -180px;
+}
+
+.day-one-p,
+.day-two-p,
+.day-three-p {
+	font-weight: bold;
+}
+
+.more-weather-details-box {
+	position: relative;
+	bottom: 540px;
+	left: 1480px;
+}
+
+span {
+	font-weight: bold;
 }
