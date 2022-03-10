@@ -8,7 +8,9 @@
 	border: none;
 	outline: none;
 	background-color: rgb(228, 227, 240, 0.5);
-	margin-left: 15px;
+	/* margin-left: 10px; */
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .current-weather-header,
