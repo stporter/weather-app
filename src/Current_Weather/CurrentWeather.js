@@ -35,7 +35,7 @@ function Currentweather(props) {
 			<div>
 				<form className='search-weather' onSubmit={handleSubmit}>
 					<input
-						placeholder='Search by city/zipcode'
+						placeholder='Search by location/zipcode'
 						type='text'
 						name='searchString'
 						className='search-location'
